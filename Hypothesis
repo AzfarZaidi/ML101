@@ -1,0 +1,3 @@
+def hy(x,theta):
+    return sum([i*j for i,j in zip(x,theta)])
+print hy([1,1],[1,5])
